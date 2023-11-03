@@ -31,6 +31,15 @@ class UserSeeder extends Seeder
             'type' => User::DEFAULT,
         ]);
 
+        $admin = User::factory()->createQuietly([
+            'name' => 'Anne-Jo van Rij',
+            'email' => 'jejvanrij@gmail.com',
+            'username' => 'jejvanrij',
+            'github_username' => 'jejvanrij',
+            'password' => bcrypt('secret'),
+            'type' => User::ADMIN,
+        ]);
+
         DB::beginTransaction();
 
         User::factory()
