@@ -35,7 +35,6 @@
 
 <body class="{{ $bodyClass ?? '' }} font-sans bg-white antialiased" :class="{ 'overflow-hidden': lockScroll }" x-data="{ lockScroll: false, activeModal: false }" @keyup.escape="activeModal = false">
 
-@include('layouts._ads._banner')
 @include('layouts._nav')
 
 @yield('body')

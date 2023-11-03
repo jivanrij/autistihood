@@ -14,11 +14,11 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         $admin = User::factory()->createQuietly([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-            'username' => 'testing',
-            'github_username' => 'driesvints',
-            'password' => bcrypt('password'),
+            'name' => 'Jonathan van Rij',
+            'email' => 'jonathan@blijnder.nl',
+            'username' => 'jivanrij',
+            'github_username' => 'jivanrij',
+            'password' => bcrypt('secret'),
             'type' => User::ADMIN,
         ]);
 

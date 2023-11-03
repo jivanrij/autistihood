@@ -44,6 +44,7 @@
         "brianium/paratest": "^6.4",
         "fakerphp/faker": "^1.10",
         "laravel/browser-kit-testing": "^6.4",
+        "laravel/sail": "^1.26",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
         "pestphp/pest": "^1.21",

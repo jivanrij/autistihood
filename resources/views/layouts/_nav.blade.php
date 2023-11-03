@@ -5,7 +5,7 @@
                 <div class="block lg:flex lg:items-center lg:shrink-0">
                     <div class="flex justify-between items-center p-4 lg:p-0">
                         <a href="{{ route('home') }}" class="mr-4">
-                            <img loading="lazy" class="h-6 w-auto lg:h-8" src="{{ asset('images/laravelio-logo.svg') }}" width="330" height="78" alt="{{ config('app.name') }}" />
+                            <img loading="lazy" class="h-6 w-auto lg:h-8" src="{{ asset('images/logo_trans.png') }}" width="330" height="78" alt="{{ config('app.name') }}" />
                         </a>
 
                         <div class="flex lg:hidden">
@@ -37,11 +37,6 @@
                                 </a>
                             </li>
 
-                            <li class="rounded lg:mb-0 lg:hover:bg-gray-100">
-                                <a href="https://paste.laravel.io" class="inline-block w-full px-2 py-1">
-                                    Pastebin
-                                </a>
-                            </li>
 
                             <li class="rounded lg:mb-0 lg:hover:bg-gray-100">
                                 <div @click.outside="chat = false" class="relative">

@@ -7,17 +7,17 @@
         <div class="mx-4 md:mx-0">
             <div class="flex flex-col pb-8 mb-8 border-b lg:pb-16 border-gray-800 lg:flex-row">
                 <div class="w-full mb-6 lg:w-2/5 lg:pr-20 lg:mb-0">
-                    <img loading="lazy" src="{{ asset('images/laravelio-logo-white.svg') }}" alt="{{ config('app.name') }}" class="block mb-5" />
+                    <img loading="lazy" src="{{ asset('images/logo_trans.png') }}" alt="{{ config('app.name') }}" class="block mb-5" />
 
                     <p class="text-gray-100 lg:leading-loose">
-                        The Laravel portal for problem solving, knowledge sharing and community building.
+                        Ut totam aut aut atque optio non nisi rerum sed recusandae rerum qui laborum tempore
                     </p>
                 </div>
 
                 <div class="lg:w-full lg:flex lg:justify-between">
                     <div class="grow mb-6 lg:mb-0">
                         <p class="text-lg mb-4 lg:mb-6">
-                            Laravel.io
+                            Footer menu 1
                         </p>
 
                         <div class="flex flex-wrap lg:flex-col lg:flex-no-wrap">
@@ -29,15 +29,12 @@
                                 Articles
                             </a>
 
-                            <a href="https://paste.laravel.io" class="w-1/2 text-gray-400 mb-4 hover:text-gray-200 lg:mb-6">
-                                Pastebin
-                            </a>
                         </div>
                     </div>
 
                     <div class="grow mb-6 lg:mb-0">
                         <p class="text-lg mb-4 lg:mb-6">
-                            Socials
+                            Footer menu 2
                         </p>
 
                         <div class="flex flex-wrap lg:flex-col lg:flex-no-wrap">
@@ -55,7 +52,7 @@
 
                     <div class="grow">
                         <p class="text-lg mb-6">
-                            The community
+                            Footer menu 3
                         </p>
 
                         <div class="flex flex-col flex-nowrap">
@@ -65,10 +62,10 @@
                                     Laravel
                                 </a>
 
-                                <a href="https://laravel-news.com" class="w-1/2 text-gray-400 hover:text-gray-200">
-                                    <img loading="lazy" src="{{ asset('images/laravel-news.png') }}" alt="Laravel News" class="w-4 h-4 inline mr-2" />
-                                    Laravel News
-                                </a>
+{{--                                <a href="https://laravel-news.com" class="w-1/2 text-gray-400 hover:text-gray-200">--}}
+{{--                                    <img loading="lazy" src="{{ asset('images/laravel-news.png') }}" alt="Laravel News" class="w-4 h-4 inline mr-2" />--}}
+{{--                                    Laravel News--}}
+{{--                                </a>--}}
                             </div>
 
                             <div class="flex">
@@ -77,10 +74,10 @@
                                     Laracasts
                                 </a>
 
-                                <a href="https://www.laravelpodcast.com" class="w-1/2 text-gray-400 hover:text-gray-200">
-                                    <img loading="lazy" src="{{ asset('images/podcast.png') }}" alt="Laravel Podcast" class="w-4 h-4 inline mr-2" />
-                                    Laravel Podcast
-                                </a>
+{{--                                <a href="https://www.laravelpodcast.com" class="w-1/2 text-gray-400 hover:text-gray-200">--}}
+{{--                                    <img loading="lazy" src="{{ asset('images/podcast.png') }}" alt="Laravel Podcast" class="w-4 h-4 inline mr-2" />--}}
+{{--                                    Laravel Podcast--}}
+{{--                                </a>--}}
                             </div>
                         </div>
                     </div>
@@ -89,7 +86,7 @@
 
             <div class="text-gray-100 flex flex-col lg:flex-row">
                 <span class="mb-5 lg:mb-0 lg:mr-5">
-                    &copy; {{ date('Y') }} Laravel.io - All rights reserved.
+                    &copy; {{ date('Y') }} Autistihood.community - All rights reserved.
                 </span>
 
                 <div class="flex flex-wrap lg:block">
