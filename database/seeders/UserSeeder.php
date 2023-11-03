@@ -23,11 +23,11 @@ class UserSeeder extends Seeder
         ]);
 
         User::factory()->createQuietly([
-            'name' => 'Jane Doe',
-            'email' => 'jane@example.com',
-            'username' => 'janedoe',
-            'github_username' => 'janedoe',
-            'password' => bcrypt('password'),
+            'name' => 'Antonia Borneo',
+            'email' => 'antonia@gmeel.com',
+            'username' => 'antonia',
+            'github_username' => 'antonia',
+            'password' => bcrypt('secret'),
             'type' => User::DEFAULT,
         ]);
 

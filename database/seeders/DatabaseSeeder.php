@@ -12,12 +12,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        if (! App::environment('production')) {
+//        if (! App::environment('production')) {
             $this->call(UserSeeder::class);
             $this->call(TagSeeder::class);
             $this->call(ReplySeeder::class);
             $this->call(NotificationSeeder::class);
             $this->call(LikeSeeder::class);
-        }
+//        }
     }
 }
